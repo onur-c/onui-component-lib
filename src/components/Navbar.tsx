@@ -9,7 +9,11 @@ const Navbar = () => {
           on.<span className="font-bold">ui</span>
         </a>
       </div>
-      <a href="/" target="_blank" className="hover:opacity-70 transition">
+      <a
+        href="https://github.com/onur-c/onui-component-lib"
+        target="_blank"
+        className="hover:opacity-70 transition"
+      >
         <FaGithub size={25} />
       </a>
     </header>
