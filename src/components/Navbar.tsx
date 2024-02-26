@@ -3,14 +3,14 @@ import { FaGithub } from "react-icons/fa";
 
 const Navbar = () => {
   return (
-    <header className="flex items-center justify-between h-20 px-8 sticky top-8 rounded-xl mx-auto max-w-xl backdrop-blur border border-black/10 bg-white/15">
+    <header className="shadow-xl flex items-center justify-between h-20 px-8 sticky top-8 z-50 rounded-xl  backdrop-blur border border-black/10 bg-white/25">
       <div>
-        <a href="/" className="text-xl">
-          on<span className="font-bold">ui</span>
+        <a href="/" className="text-xl hover:opacity-70 transition">
+          on.<span className="font-bold">ui</span>
         </a>
       </div>
-      <a>
-        <FaGithub />
+      <a href="/" target="_blank" className="hover:opacity-70 transition">
+        <FaGithub size={25} />
       </a>
     </header>
   );

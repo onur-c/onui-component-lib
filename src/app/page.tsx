@@ -1,12 +1,12 @@
-import BgGradient from "@/components/BgGradient";
-import ComponentInfo from "@/components/ComponentInfo";
+import Container from "@/components/Container";
+import MainContent from "@/components/MainContent";
 import Navbar from "@/components/Navbar";
 
 export default function Home() {
   return (
-    <main className="relative">
+    <Container>
       <Navbar />
-      <ComponentInfo />
-    </main>
+      <MainContent />
+    </Container>
   );
 }

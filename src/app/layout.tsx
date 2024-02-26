@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
-import BgGradient from "@/components/BgGradient";
 
 const inter = Inter({ subsets: ["latin"] });
 
